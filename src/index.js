@@ -36,9 +36,9 @@ function renderCake(cake) {
     console.log("Rendering cake details but cake being pulled in is:", cake);
 
     // here we are assigning the values to the properties of the DOM elements
-    // Display the cake's name, fulfilling the requirement to show the cake's name on load
+    // requirement to show the cake's name on load
     document.getElementById("cake-name").textContent = cake.name;
-    // set the image source to the cake's image URL, fulfilling the req to show the cake's image on load
+    // req to show the cake's image on load
     document.getElementById("cake-image").src = cake.image_url;
     // display the cake's description, the req to show the cake's description on load is complete
     document.getElementById("cake-description").textContent = cake.description;
